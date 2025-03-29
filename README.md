@@ -5,6 +5,8 @@
 2. Complete automation of all tools, avoiding manual interventions even if possible.
 
 ![وصف الصورة](https://i.postimg.cc/rKQwMRFZ/1594668243636.png)
+<img src="https://i.postimg.cc/rKQwMRFZ/1594668243636.png" alt="وصف الصورة" width="800">
+
 
 
 
