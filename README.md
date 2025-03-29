@@ -4,7 +4,8 @@
 1. Practical application of what I've learned in the DEBI scholarship.
 2. Complete automation of all tools, avoiding manual interventions even if possible.
 
-[1594668243636.png](https://postimg.cc/rKQwMRFZ)
+![وصف الصورة](https://i.postimg.cc/rKQwMRFZ/1594668243636.png)
+
 
 
 
