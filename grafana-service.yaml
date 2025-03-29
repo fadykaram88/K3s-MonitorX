@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: grafana-service
+  namespace: monitoring
+spec:
+  type: LoadBalancer  # يفتح الخدمة على الإنترنت
+  selector:
+    app: grafana
+  ports:
+    - protocol: TCP
+      port: 80           # البورت اللي هيوصل للخدمة
+      targetPort: 3000   # البورت الداخلي للخدمة
+

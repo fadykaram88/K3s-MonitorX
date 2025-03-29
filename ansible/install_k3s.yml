@@ -1,0 +1,31 @@
+- name: Install K3s on Worker
+  hosts: worker
+  become: yes
+  tasks:
+    - name: Install curl
+      apt:
+        name: curl
+        state: present
+      when: ansible_os_family == "Debian"
+
+    - name: Download and install K3s
+      shell: |
+        curl -sfL https://get.k3s.io | sh -
+      args:
+        executable: /bin/bash
+
+    - name: Enable and start K3s service
+      systemd:
+        name: k3s
+        enabled: yes
+        state: started
+
+    - name: Check K3s status
+      command: systemctl status k3s
+      register: k3s_status
+      changed_when: false
+
+    - name: Print K3s status
+      debug:
+        msg: "{{ k3s_status.stdout }}"
+
