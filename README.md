@@ -152,6 +152,17 @@ kubectl apply -f prometheus-deployment.yaml
 kubectl apply -f grafana-deployment.yaml
 ```
 
+### Step 3: link prometheus to the app 
+to link the app to prometheus you will add some annotations to the deployment file of prometheus 
+then write kubectl apply -f my-nginx-deployment.yaml
+
+
+### Step 4: link grafana to prometheus 
+do the same steps to add prometheus to grafana
+
+### Step 5: to let prometheus monitor the app 
+you must create a file called clusterrole to give prometheus the permission to monitor the app
+
 ## Final Steps
 1. Deploy Prometheus and Grafana in the cluster.
 2. Link Prometheus with the app.
