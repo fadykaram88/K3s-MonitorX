@@ -4,7 +4,8 @@
 1. Practical application of what I've learned in the DEBI scholarship.
 2. Complete automation of all tools, avoiding manual interventions even if possible.
 
-![Project Image](https://raw.githubusercontent.com/fadykaram88/Senior-1-/refs/heads/main/0_2AQG1Fcu8GgfKtYf.webp?token=GHSAT0AAAAAADBK4I3VNA5PDR3IJFJKK5M2Z7ILHPA)
+![Project Image](https://raw.githubusercontent.com/fadykaram88/Senior-1-/main/0_2AQG1Fcu8GgfKtYf.webp)
+
 
 ## Tools Used
 - Ansible
